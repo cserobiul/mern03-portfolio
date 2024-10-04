@@ -35,7 +35,7 @@ h3 {
 .header {
   position: relative;
   background-color: #f4f4f4;
-  background-image: url("/imgs/header.jpg");
+  background-image: url("../../imgs/header.jpg");
   background-repeat: no-repeat;
   background-size: 100% 250px;
   background-attachment: fixed;
