@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-main;
+  font-size: $base-font-size;
+  color: $text-color;
+  background-color: $secondary-color;
+}
+
+a {
+  text-decoration: none;
+  color: $black-color;
+}
+
+h1,
+h2,
+h3 {
+  color: $primary-color;
+}
+
+// Media query for desktop styles
+@media (min-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}

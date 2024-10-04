@@ -1,0 +1,13 @@
+.footer {
+  box-shadow: 0ch 0ch 10ch rgba(0, 0, 0, 0.2);
+  height: auto;
+  margin: 0.5rem;
+  padding: 20px;
+
+  &__text {
+    font-size: 1rem;
+    color: $text-color;
+    text-align: center;
+    margin: 1rem 0;
+  }
+}

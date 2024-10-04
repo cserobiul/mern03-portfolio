@@ -1,0 +1,106 @@
+.resume-area__title {
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.resume-area__title-heighlight {
+  color: $accent-color;
+}
+
+.resume__experience,
+.resume__education,
+.resume__skills {
+  box-shadow: 0ch 0ch 10ch rgba(0, 0, 0, 0.2);
+  border: 2px solid $white-color;
+  min-height: 180px;
+  height: auto;
+  margin: 0.5rem;
+  padding: 20px 10px 20px 50px;
+}
+
+.resume__title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin: 10px 0 20px 0;
+}
+.resume__title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: $accent-color;
+  margin: 10px 0;
+}
+.resume__list {
+  list-style: none;
+}
+.resume__item__title {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin: 15px 0 5px 0;
+  color: $accent-color;
+}
+.resume__item__date {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 5px 0;
+  color: $text-color;
+}
+.resume__item__text {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 5px 0;
+  color: $text-color;
+}
+.resume__item__text {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 5px 0;
+  color: $text-color;
+}
+.resume__item__text--highlight {
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.resume__language {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.resume__language__item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.resume__language__item i {
+  font-size: 2rem;
+}
+.resume__language__text {
+  font-size: 1rem;
+}
+
+// Media query for desktop styles
+@media (min-width: 768px) {
+  .resume {
+    margin-top: 0.25rem;
+    display: flex;
+    justify-content: center;
+    min-height: 250px;
+  }
+  .resume > * {
+    flex: 1;
+  }
+
+  .resume__language {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+}
